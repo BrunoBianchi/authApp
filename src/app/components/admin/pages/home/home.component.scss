@@ -1,0 +1,24 @@
+@import "../../../../../scss/base/variables.scss";
+
+:host {
+    button {
+        width:100%;
+        height:60px;
+        margin: 25px 0 0;
+        background: $vermelho;
+        border-radius:10px;
+        border:0;
+        color:$branco;
+        font-size: 18px;
+        cursor: pointer;
+        &.disable {
+            cursor: no-drop;
+            background: darken($vermelho,20%);
+        }
+    }
+    strong {
+        font-size: 25px;
+        color:$vermelho;
+        font-weight: 700;
+    }
+}

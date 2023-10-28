@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400&display=swap");
+
+*{
+    padding:0;
+    margin:0;
+    outline: none;
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+body {
+    height:100vh;
+    background: #ffc2c23b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
